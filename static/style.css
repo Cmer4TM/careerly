@@ -1,0 +1,34 @@
+body {
+    max-width: 1200px;
+    min-height: 100vh;
+}
+
+#nav-links label {
+    position: absolute;
+    display: flex;
+    padding: var(--bs-btn-padding-y) 20px;
+    transition: 300ms;
+    interpolate-size: allow-keywords;
+}
+
+#nav-links #nav-link-1 + label {
+    right: 50%;
+}
+
+#nav-links label:hover {
+    width: fit-content;
+    gap: 0.35rem;
+}
+
+#nav-links .nav-option-text {
+    width: 0;
+    opacity: 0;
+    overflow: hidden;
+    interpolate-size: allow-keywords;
+    transition: 300ms;
+}
+
+#nav-links label:hover .nav-option-text {
+    width: fit-content;
+    opacity: 1;
+}
