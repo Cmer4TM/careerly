@@ -3,6 +3,10 @@ body {
     min-height: 100vh;
 }
 
+footer a {
+    color: black;
+}
+
 #nav-links label {
     position: absolute;
     display: flex;
@@ -31,4 +35,19 @@ body {
 #nav-links label:hover .nav-option-text {
     width: fit-content;
     opacity: 1;
+}
+
+#socials > a {
+    display: flex;
+    padding: 1rem;
+    text-decoration: none;
+    transition: 300ms;
+    border: 2px solid;
+    border-radius: 50%;
+}
+
+#socials > a:hover {
+    background-color: black;
+    color: white;
+    border-color: black;
 }
