@@ -1,6 +1,11 @@
+:root {
+    scrollbar-gutter: unset;
+}
+
 body {
     max-width: 1200px;
     min-height: 100vh;
+    background: url("./images/background.jpg") center / 100% 100% no-repeat fixed;
 }
 
 header a,
@@ -11,7 +16,16 @@ footer a {
 }
 
 footer a {
-    color: black;
+    color: white;
+}
+
+#nav-links > .btn-outline {
+    color: white;
+}
+
+#nav-links > .btn-outline:hover {
+    background-color: transparent;
+    color: white;
 }
 
 #nav-links > a {
@@ -37,7 +51,7 @@ footer a {
 }
 
 #socials > a:hover {
-    background-color: black;
-    color: white;
-    border-color: black;
+    background-color: white;
+    color: black;
+    border-color: white;
 }
