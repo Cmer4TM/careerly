@@ -5,7 +5,11 @@
 body {
     max-width: 1200px;
     min-height: 100vh;
-    background: url("./images/background.jpg") center / 100% 100% no-repeat fixed;
+    background: url("./images/background.jpg") center / auto 100% no-repeat fixed;
+}
+
+header {
+    background: inherit;
 }
 
 header a,
